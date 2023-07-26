@@ -1,0 +1,2 @@
+pymysql
+streamlit_option_menu
