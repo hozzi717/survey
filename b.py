@@ -24,7 +24,7 @@ col1, col2, col3 = st.sidebar.columns([1,8,1])
 with col1:
     st.write("")
 with col2:
-    st.image('./오뚜기CI.png',  use_column_width=True)
+    st.image('오뚜기CI.png',  use_column_width=True)
 with col3:
     st.write("")
 
