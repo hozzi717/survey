@@ -1,6 +1,5 @@
 import pymysql
 import streamlit as st
-from streamlit_option_menu import option_menu
 
 # 세션 상태를 가져오는 함수 정의
 def get_session_state():
