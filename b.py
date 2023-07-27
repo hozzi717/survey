@@ -46,7 +46,7 @@ no_1 = st.radio(
 button = st.button('설문 제출')
 
 if button:
-    conn = pymysql.connect(host='localhost', user='root', password='1111', db='research', charset='utf8')
+    conn = pymysql.connect(host='172.30.1.6', poprt=3306,user='root', password='1111', db='research', charset='utf8')
     cur = conn.cursor()
     
     st.write(name)
